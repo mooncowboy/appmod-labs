@@ -14,7 +14,7 @@ Lab Time: 1 hour max
 
 ## Build and run a container locally
 
-1. Open the [src/aspnetcore](./src/aspnetcore) application in Visual Studio
+1. Open the [src/aspnetcore](/src/aspnetcore) application in Visual Studio
 
 2. Add Docker Support and choose Windows Containers. You can do this by right-clicking the project file. More info available in [our docs site](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/docker/visual-studio-tools-for-docker?view=aspnetcore-2.2#existing-app).
 
