@@ -25,11 +25,10 @@ Lab Time: 1 hour max
 
 1. [Download this repo](https://github.com/theplastictoy/appmod-labs/archive/master.zip) and extract files to a folder on your computer
 
-1. Navigate to the [src/aspnetcore](/src/aspnetcore) folder in your machine and open Visual Studio Code by typing `code .` to launch it. This is a sample ASP.NET Core application.
+2. Navigate to the [src/aspnetcore](/src/aspnetcore) folder in your machine and open Visual Studio Code by typing `code .` to launch it. This is a sample ASP.NET Core application.
 
-2. Add Docker Support and choose Linux Containers. You can do this by right-clicking the project file. More info available in [our docs site](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/docker/visual-studio-tools-for-docker?view=aspnetcore-2.2#existing-app).
+3. Open the Dockerfile to check what Docker will do.
 
-![](2019-01-25-12-24-36.png)
 
 ## Build and run a container locally
 
