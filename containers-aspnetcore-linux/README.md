@@ -118,4 +118,13 @@ docker push (loginserver)/aspnetcore
 
 ## Optional exercices
 
+1. Implement an Azure DevOps build and release pipeline that creates the docker image and pushes it to Azure Container Registry ([example](https://www.azuredevopslabs.com/labs/vstsextend/docker/))
+
+2. Add an additional docker image and deploy both to a Kubernetes cluster on AKS ([example](https://www.azuredevopslabs.com/labs/vstsextend/kubernetes/))
+
 ## Further Reading
+
+* [Docker on Azure](https://azure.microsoft.com/en-us/services/kubernetes-service/docker/)
+* [Azure Kubernetes Service](https://azure.microsoft.com/en-us/services/kubernetes-service/)
+* [.NET Architecture Guides and e-books](https://dotnet.microsoft.com/learn/dotnet/architecture-guides)
+* [Azure DevOps Labs](https://www.azuredevopslabs.com/)
