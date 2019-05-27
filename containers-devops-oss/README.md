@@ -16,9 +16,10 @@ Content for the Containers and DevOps workshop delivered for Microsoft partners 
 
 
 # Presentations and go-to materials
-    - [Docker and Containers - Tech Primer (Azure Citadel)](https://azurecitadel.com/cloud-native/tech-primer-containers/)
-    - [The Azure Container platform ](https://azure.microsoft.com/en-us/product-categories/containers/)
-    - [Azure Container Strategy and Orchestration with Kubernetes](https://onedrive.live.com/?cid=86b2652bd1f71711&id=86B2652BD1F71711%21473&authkey=%21APzBA4%2D%2DC1ChiyU)
+
+* [Docker and Containers - Tech Primer (Azure Citadel)](https://azurecitadel.com/cloud-native/tech-primer-containers/)
+* [The Azure Container platform ](https://azure.microsoft.com/en-us/product-categories/containers/)
+* [Azure Container Strategy and Orchestration with Kubernetes](https://onedrive.live.com/?cid=86b2652bd1f71711&id=86B2652BD1F71711%21473&authkey=%21APzBA4%2D%2DC1ChiyU)
 
 # Pre-requisites
 
@@ -68,15 +69,15 @@ Available in [01-containers-run.md](../01-containers-run.md)
 
 ## Create your own container
 
-Available in [01-containers-nodejs.md](01-containers-nodejs.md)
+Available in [01-containers-nodejs.md](../01-containers-nodejs.md)
 
-## CI/CD in Azure DevOps
+## CI/CD with Azure DevOps
 
-Available in [02-devops-docker.md](02-devops-docker.md)
+Available in [02-devops-docker.md](../02-devops-docker.md)
 
 ## Kubernetes
 
-Available in [03-kubernetes.md](03-kubernetes.md)
+Available in [03-kubernetes.md](../03-kubernetes.md)
 
 # Slide contents
 
