@@ -64,7 +64,7 @@ https://github.com/Azure/azure-quickstart-templates/tree/master/docker-simple-on
 
 ## Run Docker containers locally
 
-Available in [01-containers-run.md](..\01-containers-run.md)
+Available in [01-containers-run.md](../01-containers-run.md)
 
 ## Create your own container
 
