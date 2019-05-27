@@ -40,9 +40,8 @@ Using the same account as above, login to [Azure DevOps Services](https://azure.
 ## Tooling
 
 * Docker (to run Linux containers)
-* Azure CLI or Azure Cloud Shell
-* kubectl 
-* Visual Studio Code with Docker and Kubernetes extensions (recommended)
+* [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) or Azure Cloud Shell
+* [Visual Studio Code](https://code.visualstudio.com/) with [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker) and [Kubernetes](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools) extensions (recommended)
 
 If you don't have the tools above in your local computer, you can launch an available on GitHub by following the steps below.
 
@@ -65,7 +64,7 @@ https://github.com/Azure/azure-quickstart-templates/tree/master/docker-simple-on
 
 ## Run Docker containers locally
 
-Available in [01-containers-run.md](01-containers-run.md)
+Available in [01-containers-run.md](..\01-containers-run.md)
 
 ## Create your own container
 
