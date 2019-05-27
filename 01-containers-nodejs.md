@@ -3,28 +3,20 @@
 In this lab, you'll get familiar with:
 - Building Docker images
 - Creating a Dockerfile
-- Pushing to a registry
-- Using Azure DevOps to automate the build and release 
+- Pushing to a registry 
 - Understanding how to optimize a Dockerfile
-
-## Run an existing docker image
-
-In Azure CLI or Cloud Shell, create an Azure Container Instance
-
-`az container create -n myngxin -g <your_rg_here> --ip-address public --image library/nginx`
-
-Notice the IP Address once the operation completes and browse to that address. You've just launched a container.
 
 ## Build a docker image
 
 **Pre-requisites:** Make sure you've gone thru the steps in [README.md](README.md) before proceeding
 
-As a 1st step, let's build an ASP.NET Core Docker image. Notice that we don't have ASP.NET installed on the VM.
+As a 1st step, let's build a Docker image that runs our NodeJS app. Notice that we don't need to have NodeJS installed on the VM.
 
-1. Go to the src/01-containers folder
-2. Type `docker build -t mvc1 .`
-3. Type `docker run --rm -p 80:80 mvc1`
-4. In the Azure Portal, find the IP address of the VM and browse to it. You should see your application running
+1. Go to the src/nodejs folder
+2. Create a dockerfile (tip: use VS Code with Docker extension)
+3. Type `docker build -t mynodeapp .`
+4. Type `docker run --rm -p 80:80 mynodeapp`
+5. In the Azure Portal, find the IP address of the VM and browse to it. You should see your application running
 
 ## Pushing to a registry
 
