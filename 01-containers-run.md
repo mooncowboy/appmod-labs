@@ -37,6 +37,6 @@ Notice the IP Address once the operation completes and browse to that address. Y
 
 Create a Web App for Containers and deploy the public library/nginx image. Use the sample below as reference.
 
-![](media\2019-05-27-17-57-20.png)
+![](2019-05-27-17-57-20.png)
 
-![](media\2019-05-27-17-58-23.png)
+![](2019-05-27-17-58-23.png)
