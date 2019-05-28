@@ -56,6 +56,8 @@ https://github.com/Azure/azure-quickstart-templates/tree/master/docker-simple-on
     - **Location**: North or West Europe
     - **Admin Username and Password:** (choose your own)
     - **Dns Name:** must be globally unique (eg: rifiel-ubuntudockervm)
+    - **Authentication Type** password
+
 3. Once started, connect to the VM via SSH
 4. Make sure docker is running by typing `docker run hello-world`
 5. Install git `sudo apt-get install git`
